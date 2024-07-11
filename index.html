@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body oncontextmenu="return false">
+    <div class="wrapper w-screen flex flex-col flex-wrap relative h-screen">
+        <div class="bodyMain relative w-[100%] left-[50%] translate-x-[-50%] h-[100%] bg-[#354051] flex flex-col flex-wrap justify-center items-center">
+            <div class="mainContent h-[400px] w-[40%] relative border-2 border-green-300 flex flex-col flex-wrap justify-center items-center gap-y-5">
+                <p class="text-3xl text-[#75c8ec] font-bold">Increment and Decrement</p>
+                <div class="timer flex flex-row flex-wrap bg-white h-[70px] w-[300px] justify-between items-center px-5 relative rounded-sm">
+                    <button id="decrementButton" class="relative p-2 border-r-[2px] border-l-[2px] border-black pr-3 pl-3"><img src="assets/minus.JPG" class="relative h-[50px] w-[48px]"></button>
+                    <p id="mainVal" class="text-5xl font-bold relative top-[-2%]">0</p>
+                    <button id="incrementButton" class="relative p-2 border-l-[2px] border-r-[2px] border-black pr-3 pl-3"><img src="assets/plus.JPG" class="relative h-[50px] w-[48px]"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blurry{
+    animation: changeBlur 5s ease-in-out infinite;
+}
+
+@keyframes chnageBlur {
+    0%{
+        filter: blur(0px);
+    }
+
+    50%{
+        filter: blur(50px);
+    }
+
+    100%{
+        filter: blur(0px);
+    }
+}
